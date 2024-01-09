@@ -4,7 +4,6 @@ class BlackJack:
         self.player = player
         self.deck = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'j', 'q', 'k', 'a']
         self.decks = self.deck * how_deck * 4
-        self.runningCounti = 0
         self.outOfCards = []
         self.tour = self.player * 2 + 2
         self.openToursCards = []
